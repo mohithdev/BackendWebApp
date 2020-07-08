@@ -1,4 +1,4 @@
-package com.wipro.ProductInventory.view;
+/*package com.wipro.ProductInventory.view;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -25,3 +25,4 @@ AbstractAnnotationConfigDispatcherServletInitializer {
 	
 }
 
+*/

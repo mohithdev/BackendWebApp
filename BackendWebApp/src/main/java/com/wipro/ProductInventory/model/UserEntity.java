@@ -20,7 +20,13 @@ public class UserEntity {
     private boolean active;
     
 
-    public int getId() {
+    @Override
+	public String toString() {
+		return "UserEntity [id=" + id + ", userName=" + userName + ", password=" + password + ", roles=" + roles
+				+ ", active=" + active + "]";
+	}
+
+	public int getId() {
         return id;
     }
 

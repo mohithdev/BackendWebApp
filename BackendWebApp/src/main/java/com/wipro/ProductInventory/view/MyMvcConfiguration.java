@@ -1,4 +1,4 @@
-package com.wipro.ProductInventory.view;
+/*package com.wipro.ProductInventory.view;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan({"com.wipro.ProductInventory"})
 public class MyMvcConfiguration extends WebMvcConfigurerAdapter {
 	
-	/*@Bean
+	@Bean
 	public InternalResourceViewResolver viewResolver() {
 		InternalResourceViewResolver vr = new InternalResourceViewResolver();
 		
@@ -24,7 +24,7 @@ public class MyMvcConfiguration extends WebMvcConfigurerAdapter {
 		vr.setSuffix(".html");
 		vr.setViewClass(JstlView.class);
 		return vr;
-	}*/
+	}
 	
 	@Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
@@ -36,3 +36,4 @@ public class MyMvcConfiguration extends WebMvcConfigurerAdapter {
     }
 	
 }
+*/
